@@ -48,12 +48,15 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Dd418K57Yo?si=adzvxJMZy9eCWcms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- My project needs an Arduino Uno, 2 7-segment displays, a buzzer, and a rotary encoder. They will be able to integrate to
+  set the time on the display using the rotary encoder and the Arduino. Then, the Arduino can count the time down. Finally,
+  the buzzer will go off once the time reaches zero.
+- So far, I have been able to set the time on the first display. I have also been able to get each component of my clock
+  working independently.
+- One challenge I've been facing is that the rotary encoder is not able to set values past 2.
+- My plan to complete my project is to rewrite my time-setting code, as I know both parts are working. 
+  From there, I plan to work on the code for the game state and the ending state. Once I have both of those done,
+  I hope to be able to make a case for my chess clock using CAD.
 
 
 # First Milestone Code
