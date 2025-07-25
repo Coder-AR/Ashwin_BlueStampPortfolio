@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qCYACPenO60?si=U6mSXugfV7t4DbD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+For my Second Milestone:
 - I was able to rewrite my chess clock's setup, game state, and end state code so that it works properly. 
 - I have been surprised by how quickly I can learn new skills. Once I got the hang of something, I was able to work on it quickly.
 - I was able to overcome the difficulty of getting my code to work by working on each component separately. This allowed me to identify the exact problems in my code, rather than receiving a multitude of errors at once.
