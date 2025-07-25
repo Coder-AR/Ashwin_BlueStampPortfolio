@@ -574,7 +574,7 @@ Here are my Schematics:
 ![Schematics](ChessClockWiring.png)
 
 And a Fritzing download:
-wget [https://drive.google.com/file/d/111tZWsS_IP6bUvmKNgspO-ayHsFWMcLu/view?usp=sharing]
+<a href="https://drive.google.com/uc?export=download&id=111tZWsS_IP6bUvmKNgspO-ayHsFWMcLu"> Link </a>
 
 
 
