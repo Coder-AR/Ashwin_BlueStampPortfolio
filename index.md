@@ -420,9 +420,6 @@ void loop() {
 
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Dd418K57Yo?si=adzvxJMZy9eCWcms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - My project needs an Arduino Uno, 2 7-segment displays, a buzzer, and a rotary encoder. They will be able to integrate to
@@ -437,8 +434,7 @@ void loop() {
 
 
 # First Milestone Code
-
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+This code doesn't have full functionality. Use one of the Milestones above for working code.
 
 ```c++
 #include <Arduino.h>
@@ -573,7 +569,7 @@ void loop() {
 Here are my Schematics:
 ![Schematics](ChessClockWiring.png)
 
-And a Fritzing download:
+Fritzing download:
 <a href="https://drive.google.com/uc?export=download&id=111tZWsS_IP6bUvmKNgspO-ayHsFWMcLu"> Link </a>
 
 
