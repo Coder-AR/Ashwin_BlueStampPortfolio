@@ -593,6 +593,6 @@ And a Fritzing download:
 | USB C to USB A Adapter | Used for connecting the USB A to USB B cable if you only have USB C | $2.99 | <a href="https://www.amazon.com/WWZMDiB-Module%EF%BC%8CLED-Brightness-Adjustable-Accessories/dp/B0BFQNFX6D](https://www.amazon.com/ENVEL-Transfer-Converter-Thunderbolt3-Compatible/dp/B0D3T2QDVJ?th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 9V battery holder with switch & 5.5mm/2.1mm plug | Used to provide external power | $3.95 | <a href="https://www.adafruit.com/product/67?srsltid=AfmBOorbjDFzB5XPg_dZWf5OB7YtmBC4QDYVWsJ7bw4a7SVUmTL1BobBtc0&gQT=1"> Link </a> |
-
-
+|:--:|:--:|:--:|:--:|
+| Tactile Buttons | An Upgrade over the buttons included in the Starter Kit | $5.99 | <a href="https://www.amazon.com/20pcs-Momentary-Tactile-Button-Switch/dp/B008DGA9UY/"> Link </a> |
 
