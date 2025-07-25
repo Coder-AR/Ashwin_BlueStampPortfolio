@@ -23,6 +23,198 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
+# Final Milestone Code
+For now, it's the same as the second milestone code. I plan to add an increment and a more precise time setup later.
+
+```c++
+#include <TM1637Display.h>
+
+// Rotary Encoder Inputs
+#define CLKEN 13
+#define DT 12
+#define SW 11
+#define CLK1 5
+#define DIO1 6
+#define CLK2 8
+#define DIO2 9
+TM1637Display display1 = TM1637Display(CLK1, DIO1);
+TM1637Display display2 = TM1637Display(CLK2, DIO2);
+int gameState = 0;
+int counter = 0;
+int displayTime = 0;
+int displayTime1 = 0;
+int counter1 = 0;
+int formatTime = 0;
+int formatTime1 = 0;
+int gameTime = 0;
+int gameTime1 = 0;
+int currentStateCLK;
+int lastStateCLK;
+
+
+
+int buttonPin = 2;
+int button2Pin = 4;
+int buzzerPin = 10;
+int buttonState = 0;
+int button2State = 0;
+
+
+
+String currentDir = "";
+unsigned long lastButtonPress = 0;
+
+unsigned long lastButtonPress1 = 0;
+
+unsigned long lastButtonPress2 = 0;
+
+
+bool timer1Active = false;
+bool timer2Active = false;
+
+
+
+
+void setup() {
+
+  // Set encoder pins as inputs
+  pinMode(CLKEN, INPUT);
+  pinMode(DT, INPUT);
+  pinMode(SW, INPUT_PULLUP);
+
+  // Setup Serial Monitor
+  Serial.begin(9600);
+
+  // Read the initial state of CLK
+  lastStateCLK = digitalRead(CLKEN);
+
+  display1.setBrightness(7);
+  display2.setBrightness(7);
+  display1.clear();
+  display2.clear();
+  pinMode(buttonPin, INPUT);
+  pinMode(button2Pin, INPUT);
+  pinMode(buzzerPin, OUTPUT);
+
+}
+
+void loop() {
+
+  counter = constrain(counter, 0, 5999);
+  counter1 = constrain(counter1, 0, 5999);
+  formatTime = constrain(formatTime, 0, 5999);
+  formatTime1 = constrain(formatTime1, 0, 5999);
+  buttonState = digitalRead(buttonPin);
+  button2State = digitalRead(button2Pin);
+  // Read the current state of CLK
+  currentStateCLK = digitalRead(CLKEN);
+  if (gameState == 0) { 
+  // If last and current state of CLK are different, then pulse occurred
+  // React to only 1 state change to avoid double count
+    if (currentStateCLK != lastStateCLK && currentStateCLK == 1) {
+
+    // If the DT state is different than the CLK state then
+    // the encoder is rotating CCW so decrement
+      if (digitalRead(DT) != currentStateCLK) {
+        counter = counter+30;
+        counter1 = counter1+30;
+        currentDir = "CCW";
+      } else {
+      // Encoder is rotating CW so increment
+        counter = counter-30;
+        counter1 = counter1-30;
+        currentDir = "CW";
+    }
+
+      Serial.print("Direction: ");
+      Serial.print(currentDir);
+      Serial.print(" | Counter: ");
+      Serial.println(counter);
+      gameTime = counter;
+      gameTime1 = counter1;
+      int minutes = gameTime / 60;
+      int seconds = gameTime % 60;
+      formatTime = (minutes * 100) + seconds;
+      int minutes1 = gameTime1 / 60;
+      int seconds1 = gameTime1 % 60;
+      formatTime1 = (minutes1 * 100) + seconds1;
+      display1.showNumberDecEx(formatTime, 0b11100000, false, 4, 0);
+      display2.showNumberDecEx(formatTime1, 0b11100000, false, 4, 0);
+      } }
+
+  if (gameState == 1) {
+    if (buttonState == HIGH && millis() - lastButtonPress1 > 200) {
+    timer1Active = true;
+    timer2Active = false;
+    lastButtonPress1 = millis();
+    Serial.println("Timer 1 started");
+  }
+
+  // Check button 2 (start Timer 2)
+  if (button2State == HIGH && millis() - lastButtonPress2 > 200) {
+    timer2Active = true;
+    timer1Active = false;
+    lastButtonPress2 = millis();
+    Serial.println("Timer 2 started");
+  }
+
+  // Timer 1 countdown
+  if (timer1Active && gameTime > 0) {
+    gameTime--;
+    int minutes = gameTime / 60;
+    int seconds = gameTime % 60;
+    displayTime = (minutes * 100) + seconds;
+    display1.showNumberDecEx(displayTime, 0b11100000, false, 4, 0);
+    delay(1000);  // Simple blocking delay for countdown
+  }
+
+  // Timer 2 countdown
+  else if (timer2Active && gameTime1 > 0) {
+    gameTime1--;
+    int minutes = gameTime1 / 60;
+    int seconds = gameTime1 % 60;
+    displayTime1 = (minutes * 100) + seconds;
+    display2.showNumberDecEx(displayTime1, 0b11100000, false, 4, 0);
+    delay(1000);  // Simple blocking delay for countdown
+  }
+
+  if ((timer1Active && gameTime == 0) || (timer2Active && gameTime1 == 0)) {
+  gameState = 2;
+  }
+
+  if (gameState == 2) { 
+    tone(buzzerPin, 784);
+    delay(5000);
+    noTone(buzzerPin);
+
+  }
+}
+
+  // Remember last CLK state
+  lastStateCLK = currentStateCLK;
+
+  // Read the button state
+  int btnState = digitalRead(SW);
+
+  //If we detect LOW signal, button is pressed
+  if (btnState == LOW) {
+    //if 50ms have passed since last LOW pulse, it means that the
+    //button has been pressed, released and pressed again
+    if (millis() - lastButtonPress > 50) {
+      Serial.println("Button pressed!");
+      gameState = gameState + 1;
+    }
+
+    // Remember last button press event
+    lastButtonPress = millis();
+  }
+
+  // Put in a slight delay to help debounce the reading
+  delay(1);
+}
+```
+
+
 
 
 # Second Milestone
