@@ -1,5 +1,5 @@
 # Chess Clock
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+For my project, I built a fully functional chess clock. You can set the time using the rotary encoder. Rotate it clockwise to add 30 seconds, rotate it counterclockwise to subtract 30 seconds. Press down on the rotary encoder once to set the time. Then, you can use the buttons at the top to start and stop the timer, just like a real chess clock. One of my biggest challenges during the project was working with the code. I kept trying to do everything at once, which made it difficult to identify the problem, as I would receive multiple errors. But this leads to my biggest takeaway, which is that working in chunks makes it way easier to manage issues. Using this, I was able to find out exactly what went wrong, and I was able to finish the code quickly.
 
 
 
