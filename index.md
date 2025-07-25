@@ -1,5 +1,7 @@
 # Chess Clock
-For my project, I built a fully functional chess clock. You can set the time using the rotary encoder. Rotate it clockwise to add 30 seconds, rotate it counterclockwise to subtract 30 seconds. Press down on the rotary encoder once to set the time. Then, you can use the buttons at the top to start and stop the timer, just like a real chess clock. One of my biggest challenges during the project was working with the code. I kept trying to do everything at once, which made it difficult to identify the problem, as I would receive multiple errors. But this leads to my biggest takeaway, which is that working in chunks makes it way easier to manage issues. Using this, I was able to find out exactly what went wrong, and I was able to finish the code quickly.
+For my project, I built a fully functional chess clock. The timer can be set using a rotary encoder—turning it clockwise adds 30 seconds, and turning it counterclockwise subtracts 30 seconds. The time can be set by pressing down on the encoder. Once set, the buttons on top function like a real chess clock, allowing each player to start and stop their timer.
+
+One of the biggest challenges I faced was working with the code. Initially, I tried to do everything at once, which led to multiple errors and made debugging difficult. My key takeaway from this experience was the importance of working in smaller, manageable chunks. By breaking down the code step by step, I was able to identify problems more easily and complete the project much more efficiently.
 
 
 
