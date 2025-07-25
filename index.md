@@ -27,8 +27,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qCYACPenO60?si=U6mSXugfV7t4DbD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -38,7 +36,7 @@ For your second milestone, explain what you've worked on since your previous mil
 Before my final milestone, I need to complete the CAD design for my chess clock's housing. I also need to finish wiring up the tactile buttons.
 
 # Second Milestone Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+Here's the code for the second milestone. It should be fully functional, but basic.
 
 ```c++
 #include <TM1637Display.h>
