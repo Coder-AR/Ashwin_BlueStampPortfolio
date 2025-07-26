@@ -9,7 +9,7 @@ One of the biggest challenges I faced was working with the code. Initially, I tr
 |:--:|:--:|:--:|:--:|
 | Ashwin R | International School | Computer Hardware | Incoming Junior
 
-![Ashwin](Ashwin.jpeg)
+![Ashwin](Ashwin.jpg)
   
 # Final Milestone
 
