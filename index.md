@@ -574,6 +574,12 @@ Here are my Schematics:
 Fritzing download:
 <a href="https://drive.google.com/uc?export=download&id=111tZWsS_IP6bUvmKNgspO-ayHsFWMcLu"> Link </a>
 
+# Modifications
+One of the modifications that I did was making a case for my chess clock. This is my first attempt, so it may not fit perfectly.
+
+CAD Files:
+<a href="https://drive.google.com/uc?export=download&id=1gu2yVOqDHlGu30Eq0PLJop4oLAlbW4cG"> Link </a>
+
 
 
 
