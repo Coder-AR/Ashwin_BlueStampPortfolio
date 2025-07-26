@@ -9,7 +9,7 @@ One of the biggest challenges I faced was working with the code. Initially, I tr
 |:--:|:--:|:--:|:--:|
 | Ashwin R | International School | Computer Hardware | Incoming Junior
 
-![Ashwin](Ashwin.jpeg)
+![Ashwin](Ashwin.jpg)
   
 # Final Milestone
 
@@ -564,6 +564,8 @@ void loop() {
 }
 
 ```
+Ino Download:
+<a href="https://drive.google.com/uc?export=download&id=1iIuTCeGTJwshLQtMEVMY07M8_zreR_jU"> Link </a>
 
 # Schematics
 Here are my Schematics:
