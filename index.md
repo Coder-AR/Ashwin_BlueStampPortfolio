@@ -18,10 +18,10 @@ One of the biggest challenges I faced was working with the code. Initially, I tr
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- I was able to make the case for my chess clock in CAD.
+- My biggest challenges at Bluestamp Engineering were my code and the CAD. However, I was able to triumph over them by breaking them down into smaller tasks. I coded each part separately before integrating them all into my code. This reduced the amount of errors in my code and made it easier to problem solve. For my CAD, I worked on each part separately before putting them all into an assembly so that I would be sure that they all worked together.
+- I learned about circuits, C++, and Arduinos during my time at Bluestamp.
+- I hope to be able to make a project using an Arduino by myself, using the knowledge that I have gained from Bluestamp.
 
 # Final Milestone Code
 For now, it's the same as the second milestone code. I plan to add an increment and a more precise time setup later.
