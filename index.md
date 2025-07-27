@@ -13,11 +13,8 @@ One of the biggest challenges I faced was working with the code. Initially, I tr
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fkpz3Xgjyds?si=WKkFCYkEc-lWLmkp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
 - I was able to make the case for my chess clock in CAD.
 - My biggest challenges at Bluestamp Engineering were my code and the CAD. However, I was able to triumph over them by breaking them down into smaller tasks. I coded each part separately before integrating them all into my code. This reduced the amount of errors in my code and made it easier to problem solve. For my CAD, I worked on each part separately before putting them all into an assembly so that I would be sure that they all worked together.
 - I learned about circuits, C++, and Arduinos during my time at Bluestamp.
