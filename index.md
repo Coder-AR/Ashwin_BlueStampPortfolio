@@ -577,6 +577,9 @@ One of the modifications that I did was making a case for my chess clock. This i
 CAD Files:
 <a href="https://drive.google.com/uc?export=download&id=1gu2yVOqDHlGu30Eq0PLJop4oLAlbW4cG"> Link </a>
 
+STL Files:
+<a href="https://drive.google.com/uc?export=download&id=19OxestXSmuo8e2xrpIH0l-tQ9C73TusU"> Link </a>
+
 
 
 
@@ -595,5 +598,5 @@ CAD Files:
 |:--:|:--:|:--:|:--:|
 | 9V battery holder with switch & 5.5mm/2.1mm plug | Used to provide external power | $3.95 | <a href="https://www.adafruit.com/product/67?srsltid=AfmBOorbjDFzB5XPg_dZWf5OB7YtmBC4QDYVWsJ7bw4a7SVUmTL1BobBtc0&gQT=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Tactile Buttons | An Upgrade over the buttons included in the Starter Kit | $5.99 | <a href="https://www.amazon.com/20pcs-Momentary-Tactile-Button-Switch/dp/B008DGA9UY/"> Link </a> |
+| Tactile Buttons | An upgrade over the buttons included in the Starter Kit | $5.99 | <a href="https://www.amazon.com/20pcs-Momentary-Tactile-Button-Switch/dp/B008DGA9UY/"> Link </a> |
 
